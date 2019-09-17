@@ -1,0 +1,17 @@
+//To see what remote you have
+$ git remote -v
+
+//Rename the remote
+$ git remote rename [old-name] [new-name]
+
+//Remove a remote
+$ git remote rm [remote-name]
+
+//Add a remote
+$ git remote add [short-name] [remote-url]
+
+//Clone a remote
+$ git clone [remote-url]
+$ git clone [remote-url] [directory-name]
+
+//
