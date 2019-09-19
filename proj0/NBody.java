@@ -47,7 +47,6 @@ public class NBody{
 		String filename = args[2];
 		Body[] bodies = readBodies(filename);
 		double radius = readRadius(filename);
-
 	}
 
 
