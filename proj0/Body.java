@@ -76,6 +76,15 @@ public class Body{
 		return netForceByY;
 	}
 
+	public void update(double dt, double xForce, double yForce){
+		double xAccel = xForce/mass;
+		double yAccel = yForce/mass;
+		xxVel += dt * xAccel;
+		yyVel += dt * yAccel;
+		xxPos += dt * xxVel;
+		yyPos += dt * yyVel;
+	}
+
 }
 
 
