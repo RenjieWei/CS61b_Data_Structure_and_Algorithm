@@ -42,24 +42,21 @@ public class NBody{
 	3. Read in the bodies and the universe radius from the file described by filename
 	*/
 	public static void main(String[] args) {
-		/**
-		collecting all needed input
-		*/
+		/**collecting all needed input*/
 		double T = Double.parseDouble(args[0]);
 		double dt = Double.parseDouble(args[1]);
 		String filename = args[2];
 		Body[] bodies = readBodies(filename);
 		double radius = readRadius(filename);
-		/**
-		Draw the background
-		*/
-		StdDraw.setCanvasSize((2.50e+11)*2, (2.50e+11)*2);
+		
+		/**Draw the background*/
+		StdDraw.setCanvasSize(radius*2, radius*2);
 		StdDraw.picture(0,0,"images/starfield.jpg");
-		/**
-		Draw one body
-		*/
 		
-		
+		/**Draw more than one body*/
+		for(int i = 0; i < bodies.length; i++){
+		bodies[i]
+		}	
 	}
 
 
