@@ -55,7 +55,7 @@ public class NBody{
 		
 		/**Draw more than one body*/
 		for(int i = 0; i < bodies.length; i++){
-		bodies[i]
+		bodies[i].draw();
 		}	
 	}
 
