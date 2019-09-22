@@ -79,5 +79,6 @@ public class TestBodyConstructor {
         checkEquals(b.yyVel, bCopy.yyVel, "yyVel");
         checkEquals(b.mass, bCopy.mass, "mass");
         checkStringEquals(b.imgFileName, bCopy.imgFileName, "path to image");
+        
     }
 }
