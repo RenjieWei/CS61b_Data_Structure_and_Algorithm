@@ -57,6 +57,7 @@ public class NBody{
 		for(int i = 0; i < bodies.length; i++){
 		bodies[i].draw();
 		}	
+		
 	}
 
 
